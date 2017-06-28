@@ -1,17 +1,11 @@
-package com.phearun.configuration;
+/*package com.phearun.configuration;
 
-import javax.sql.DataSource;
-
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import liquibase.integration.spring.SpringLiquibase;
 
 @Configuration
 public class LiquibaseConfiguration {
 	
-	/*
+	
 	@Autowired
 	private DataSource dataSource;
 	
@@ -21,7 +15,7 @@ public class LiquibaseConfiguration {
 		springLiquibase.setDataSource(dataSource);
 		springLiquibase.setChangeLog("classpath:/db/changelog/db.changelog-master.xml");
 		return springLiquibase;
-	}*/
+	}
 	
 	@Autowired
 	@Bean(name="liquibase")
@@ -33,3 +27,4 @@ public class LiquibaseConfiguration {
 	}
 	
 }
+*/
